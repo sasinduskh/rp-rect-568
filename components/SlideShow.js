@@ -67,6 +67,7 @@ const  SlideShow = () => {
                                             <div className=" float-right">
                                                 {images.map((image, i) => (
                                                     <img
+                                                        key={image.length}
                                                         className="inline-block ml-2 cursor-pointer"
                                                         style={{
                                                             width: 60,
