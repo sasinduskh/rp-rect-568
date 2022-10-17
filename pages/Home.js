@@ -19,7 +19,7 @@ export default function HomePage() {
     return (
         <div style={{ width: '100%' }}>
             <div className='text-center'>
-                <h1 className='home-header-title  text-5xl'>
+                <h1 className='home-header-title  text-5xl title'>
                     NORTH LION
                 </h1>
             </div>

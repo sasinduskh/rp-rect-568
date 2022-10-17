@@ -33,3 +33,16 @@ a {
   max-height: 100%;
   object-fit: cover;
 }
+
+.title {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 181px;
+  text-align: center;
+  letter-spacing: 0.44em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
