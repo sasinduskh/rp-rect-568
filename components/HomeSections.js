@@ -108,7 +108,7 @@ export default function HomeSections() {
                         {show == 'service' && (
                             <div >
                                 {services.map((service) => (
-                                    <div >
+                                    <div key={service.lenght}>
                                         <h1>{service.title}</h1>
                                     </div>
                                 ))}
@@ -117,7 +117,7 @@ export default function HomeSections() {
                         {show == 'brand' && (
                             <div >
                                 {brands.map((brand) => (
-                                    <div>
+                                    <div key={service.lenght}>
                                         <h1>{brand.title}</h1>
                                     </div>
                                 ))}
