@@ -9,10 +9,10 @@ const  SlideShow = () => {
     const [nowIndexImg, setNowIndexImg] = useState(0);
 
     const images = [
-        "https://northlion.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.38186d03.png&w=1200&q=75",
+        "https://rp-rect-568-i8g4.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsection-2-1.3862d035.png&w=828&q=75",
         "https://www.northliondigital.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs87sg3k3%2Fproduction%2Feb351c1dba4df4ee292544d0681d43370a8a8682-1920x640.jpg&w=1920&q=75",
-        "https://northlion.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.38186d03.png&w=1200&q=75",
-        "https://northlion.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.38186d03.png&w=1200&q=75",
+        "https://rp-rect-568-i8g4.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsection-2-2.1e35e79c.png&w=828&q=75",
+        "https://rp-rect-568-i8g4.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fsection-2-2.1e35e79c.png&w=828&q=75",
     ];
 
     const zoomInProperties = {
@@ -67,7 +67,7 @@ const  SlideShow = () => {
                                             <div className=" float-right">
                                                 {images.map((image, i) => (
                                                     <img
-                                                        key={image.length}
+                                                       
                                                         className="inline-block ml-2 cursor-pointer"
                                                         style={{
                                                             width: 60,
