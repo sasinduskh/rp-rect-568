@@ -9,6 +9,8 @@ import section3img1 from '../img/home/section-3-1.png'
 import section3img2 from '../img/home/section-3-2.png'
 import Section from './Section';
 
+import logo from '../img/logo.png'
+
 export default function HomeSections() {
 
     const [show, setShow] = useState('');
@@ -246,12 +248,54 @@ export default function HomeSections() {
                     <h1 className='text-center text-40px lg:text-60px font-prompt font-bold cursor-pointer'><u>see more work</u></h1>
                 </Link>
 
-                <div style={{marginTop: 300}}>
+                <div style={{ marginTop: 300 }}>
                     <h1 className=' font-prompt lg:text-9xl text-36px tracking-0.22 text-center font-bold uppercase'>work with us</h1>
                 </div>
 
-                <div style={{marginTop: 87}}>
-                    <h1 className='text-center text-50px font-bold font-prompt tracking-1.4 text-blue'>hiya@northliondigital.com</h1>
+                <div style={{ marginTop: 87 }}>
+                    <a href='#'>
+                        <h1 className='text-center text-50px font-bold font-prompt tracking-1.4 text-blue-logo-color'>hiya@northliondigital.com</h1>
+
+                    </a>
+                </div>
+            </section>
+
+            <section style={{ marginTop: 30 }}>
+                <div className='text-center'>
+                    <Image src={logo} />
+                </div>
+
+                <div style={{
+                    marginTop: 173,
+                    marginBottom: 50
+                }}>
+
+                    <div className='grid grid-cols-3 gap-3 text-center'>
+                        <div>
+                            <a href='#'>
+                                <h1 className='uppercase text-36px font-prompt font-bold'>
+                                    instagram
+                                </h1>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href='#'>
+                                <h1 className='uppercase text-36px font-prompt font-bold'>
+                                    +1 22 222 2222
+                                </h1>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href='#'>
+                                <h1 className='uppercase text-36px font-prompt font-bold'>
+                                    linkedin
+                                </h1>
+                            </a>
+                        </div>
+
+                    </div>
                 </div>
             </section>
 
